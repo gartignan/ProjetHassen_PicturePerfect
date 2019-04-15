@@ -1,0 +1,371 @@
+#banniere {
+  height: 597px;
+  background-image: url("../img/menu.png");
+  background-size: cover;
+}
+
+#overlay {
+  width: 1170;
+  height: 597px;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../img/tacheBleu.png");
+  opacity: 0.3;
+  background-size: 615px 597px;
+}
+
+#overlay3 {
+  width: 1170;
+  height: 597px;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../img/tacheBleu.png");
+  opacity: 0.8;
+  background-size: 615px 597px;
+  margin-left: 270px;
+  transform: rotate(90deg);
+}
+
+#overlay1 {
+  width: 1073px;
+  height: 540px;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../img/tacheNoir.png");
+  opacity: 0.2;
+  background-size: 615px 597px;
+  margin-left: -15px;
+  margin-top: 1px;
+}
+
+#overlay2 {
+  width: 35%;
+  height: 597px;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../img/tacheJaune.png");
+  opacity: 0.5;
+  background-size: 615px 597px;
+  left: 53%;
+}
+
+.tacheBleu {
+  background-image: url("../img/tacheBleu.png");
+  position: absolute;
+}
+
+#text {
+  height: 234px;
+  background-color: white;
+  margin-left: 210px;
+  margin-top: 50px;
+}
+
+#carre {
+  height: 344px;
+  background-color: white;
+}
+
+#look {
+  height: 270px;
+  background-color: white;
+}
+
+#image {
+  height: 542px;
+  background-image: url("../img/voiture.png");
+  background-size: cover;
+}
+
+#moment {
+  height: 332px;
+  background-color: #82ca9c;
+}
+
+#team {
+  height: 412px;
+  background-color: #f6f7fa;
+}
+
+#note {
+  height: 564px;
+  background: pink;
+}
+
+.logo {
+  margin-left: 215px;
+  margin-top: 25px;
+}
+
+.take {
+  margin-left: 260px;
+  margin-top: -31px;
+}
+
+.perfect {
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 220px;
+  color: white;
+}
+
+.txt {
+  font-size: 9px;
+  color: white;
+  margin-left: 19%;
+  margin-top: 25%;
+}
+
+.takkap {
+  color: white;
+  transform: rotate(-90deg);
+  position: absolute;
+  margin-top: -60px;
+}
+
+.takkaps {
+  color: white;
+  transform: rotate(-90deg);
+  position: absolute;
+  margin-top: 60px;
+}
+
+.tel {
+  width: 400px;
+  height: 520px;
+  margin-left: 548px;
+  margin-top: 250;
+  position: absolute;
+}
+
+.new {
+  font-size: 9px;
+  color: #959595;
+}
+
+.align {
+  display: flex;
+  margin-left: -47px;
+}
+
+.bas {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.start {
+  color: #222626;
+  margin-left: -47px;
+}
+
+.rose {
+  width: 248px;
+  height: 172px;
+  background-color: #f5989d;
+}
+
+.violet {
+  width: 248px;
+  height: 172px;
+  background-color: #615f7d;
+}
+
+.orange {
+  width: 248px;
+  height: 172px;
+  background-image: url("../img/photo.png");
+  background-size: cover;
+}
+
+.yellow {
+  width: 248px;
+  height: 172px;
+  background-color: #bd8cbf;
+}
+
+.col {
+  display: flex;
+  margin-left: 178px;
+}
+
+.bleu {
+  width: 496px;
+  height: 172px;
+  background-image: url("../img/soleil.png");
+  background-size: cover;
+}
+
+.grey {
+  width: 248px;
+  height: 172px;
+  background-color: #82ca9c;
+}
+
+.white {
+  width: 248px;
+  height: 172px;
+  background-image: url("../img/bonet.png");
+  background-size: cover;
+}
+
+.espace {
+  color: white;
+  margin-left: 43px;
+}
+
+.look {
+  color: #222626;
+  font-size: 22px;
+  font-weight: 300px;
+  margin-left: 15%;
+  margin-bottom: 2%;
+}
+
+.police {
+  font-size: 9px;
+  color: #959595;
+}
+
+.blanc {
+  margin-top: 5%;
+}
+
+.black {
+  color: #67676d;
+}
+
+.texth {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 37px;
+  font-weight: 300;
+}
+
+.imagetxt {
+  margin-left: 20%;
+  margin-top: 25%;
+}
+
+.imgtxt {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 9px;
+  font-weight: 400;
+}
+
+.lat {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.raison {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-left: 15.3%;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.onboard {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.sndtitle {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px
+}
+
+.decalage {
+  margin-left: 15%;
+}
+
+.textcoter {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.col-md-1 {
+  margin-top: 80px;
+  transform: rotate(-90deg);
+  color: #ffffff;
+  font-size: 7px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.boite {
+  height: 172px;
+  width: 245px;
+  background-color: #f6f7fa;
+  margin-left: 252px;
+  margin-right: 80px;
+}
+
+.boite2 {
+  height: 236px;
+  width: 353px;
+  background-color: red;
+}
+
+.enboite {
+  display: flex;
+  margin-top: 64px;
+}
+
+.gris {
+  width: 48px;
+  height: 15px;
+  border-radius: 5px;
+  background-color: #e1e1e1;
+  text-align: center;
+}
+
+.solo {
+  margin-top: 10px;
+  margin-bottom: 3px;
+  color: #2e3b4e;
+  font-family: "Open Sans";
+  font-size: 19px;
+  font-weight: 300;
+}
+
+.itsolo {
+  color: #8297a7;
+  font-family: "Open Sans";
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 25.03px;
+}
+
+.legacy{
+  color: #ffffff;
+  font-family: "Open Sans - Extrabold";
+  font-size: 7px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.button{
+  width: 94px;
+  height: 29px;
+  border-radius: 3px;
+  background-color: #82ca9c;
+}
