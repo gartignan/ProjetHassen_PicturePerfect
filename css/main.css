@@ -1,3 +1,40 @@
+body{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@font-face {
+  font-family: "CondBold";
+  src: url(../fonts/OpenSans-CondBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "CondLight";
+  src: url(../fonts/OpenSans-CondLight.ttf) format("truetype");
+}
+@font-face {
+  font-family: "CondLightItalic";
+  src: url(../fonts/OpenSans-CondLightItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Light";
+  src: url(../fonts/OpenSans-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Regular";
+  src: url(../fonts/OpenSans-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Semibold";
+  src: url(../fonts/OpenSans-Semibold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "SemiboldItalic";
+  src: url(../fonts/OpenSans-SemiboldItalic.ttf) format("truetype");
+}
+
+
+
+
 #banniere {
   height: 597px;
   background-image: url("../img/menu.png");
@@ -46,7 +83,7 @@
   background-image: url("../img/tacheJaune.png");
   opacity: 0.5;
   background-size: 615px 597px;
-  left: 53%;
+  left: 58%;
 }
 
 .tacheBleu {
@@ -64,6 +101,7 @@
 #carre {
   height: 344px;
   background-color: white;
+  font-family: "Light";
 }
 
 #look {
@@ -88,8 +126,9 @@
 }
 
 #note {
-  height: 564px;
-  background: pink;
+  height: 385px;
+  background-color: #192431;
+  margin-bottom: 100px;
 }
 
 .logo {
@@ -100,6 +139,7 @@
 .take {
   margin-left: 260px;
   margin-top: -31px;
+  color: white;
 }
 
 .perfect {
@@ -107,6 +147,7 @@
   margin-top: -70px;
   margin-left: 220px;
   color: white;
+  font-family: "Light";
 }
 
 .txt {
@@ -114,13 +155,56 @@
   color: white;
   margin-left: 19%;
   margin-top: 25%;
+  line-height: 17px;
 }
 
 .takkap {
   color: white;
-  transform: rotate(-90deg);
   position: absolute;
-  margin-top: -60px;
+  margin-top: 60%;
+}
+
+#decal{
+    margin-top: -30px;
+    transform: rotate(-90deg);
+    color: #ffffff;
+    font-size: 7px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    position: absolute;
+    font-family: "Semibold";
+}
+
+.picture{
+color: #ffffff;
+font-size: 7px;
+font-weight: 300;
+text-transform: uppercase;
+letter-spacing: 0.3px;
+font-family: "Light";
+}
+
+#lodet{
+  margin-top: 80px;
+  transform: rotate(-90deg);
+  color: #b8b8b8;
+  font-size: 7px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  font-family: "Semibold";
+}
+
+#toget{
+  margin-top: 80px;
+  transform: rotate(-90deg);
+  color: #ffffff;
+  font-size: 7px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  font-family: "Semibold";
 }
 
 .takkaps {
@@ -131,10 +215,10 @@
 }
 
 .tel {
-  width: 400px;
-  height: 520px;
-  margin-left: 548px;
-  margin-top: 250;
+  width: 450px;
+  height: 620px;
+  margin-left: 530px;
+  margin-top: 180px;
   position: absolute;
 }
 
@@ -146,6 +230,7 @@
 .align {
   display: flex;
   margin-left: -47px;
+  font-family: "Light";
 }
 
 .bas {
@@ -156,7 +241,9 @@
 .start {
   color: #222626;
   margin-left: -47px;
+  font-family: "Light";
 }
+
 
 .rose {
   width: 248px;
@@ -219,6 +306,7 @@
   font-weight: 300px;
   margin-left: 15%;
   margin-bottom: 2%;
+  font-family: "Light";
 }
 
 .police {
@@ -232,13 +320,18 @@
 
 .black {
   color: #67676d;
+  font-family: "Semibold";
+}
+
+.font{
+  font-family: "Light";
 }
 
 .texth {
   color: #ffffff;
-  font-family: "Open Sans";
   font-size: 37px;
   font-weight: 300;
+  font-family: "Light";
 }
 
 .imagetxt {
@@ -248,14 +341,20 @@
 
 .imgtxt {
   color: #ffffff;
-  font-family: "Open Sans";
   font-size: 9px;
   font-weight: 400;
 }
 
+#seeop{
+  font-family: "Regular";
+}
+
+.txtimgsee{
+  font-family: "Light";
+}
+
 .lat {
   color: #ffffff;
-  font-family: "Open Sans";
   font-size: 9px;
   font-weight: 400;
   line-height: 24px;
@@ -263,109 +362,292 @@
 
 .raison {
   color: #ffffff;
-  font-family: "Open Sans";
   font-size: 22px;
   font-weight: 300;
   line-height: 24px;
   margin-left: 15.3%;
   margin-top: 80px;
   margin-bottom: 30px;
+  font-family: "Light";
 }
 
 .onboard {
   color: #ffffff;
-  font-family: "Open Sans";
   font-size: 9px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 18px;
 }
 
 .sndtitle {
   color: #ffffff;
-  font-family: "Open Sans";
   font-size: 13px;
   font-weight: 400;
-  line-height: 24px
+  line-height: 24px;
+  font-family: "Semibold";
 }
 
 .decalage {
   margin-left: 15%;
 }
 
+
 .textcoter {
   color: #ffffff;
-  font-family: "Open Sans";
   font-size: 12px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.3px;
 }
 
-.col-md-1 {
-  margin-top: 80px;
-  transform: rotate(-90deg);
-  color: #ffffff;
-  font-size: 7px;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 0.3px;
-}
-
 .boite {
-  height: 172px;
-  width: 245px;
+  height: 236px;
+  width: 328px;
   background-color: #f6f7fa;
   margin-left: 252px;
   margin-right: 80px;
 }
 
+.marge{
+  margin-left: 33px;
+  margin-top: 29px;
+}
+
+.boite:hover{
+  transition: 0.7s;
+  transition-timing-function: ease-out;
+  box-shadow: 0px 0px 62px rgba(0, 0, 0, 0.11);
+}
+
 .boite2 {
   height: 236px;
-  width: 353px;
-  background-color: red;
+  width: 330px;
+  margin-left: -50px;
+}
+
+.boite2:hover{
+  transition: 0.7s;
+  transition-timing-function: ease-out;
+  box-shadow: 0px 0px 62px rgba(0, 0, 0, 0.11);
 }
 
 .enboite {
   display: flex;
-  margin-top: 64px;
+  margin-top: 70px;
+  position: absolute;
+}
+
+.alann{
+  font-family: "Light";
 }
 
 .gris {
   width: 48px;
   height: 15px;
-  border-radius: 5px;
+  border-radius: 3px;
   background-color: #e1e1e1;
-  text-align: center;
+  color: #ffffff;
+  font-size: 7px;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  padding-bottom: 20px;
+  padding-top: 0px;
+  padding-left: 11px;
+  font-family: "Regular";
 }
 
 .solo {
   margin-top: 10px;
   margin-bottom: 3px;
   color: #2e3b4e;
-  font-family: "Open Sans";
   font-size: 19px;
   font-weight: 300;
+  font-family: "Light";
 }
 
 .itsolo {
   color: #8297a7;
-  font-family: "Open Sans";
   font-size: 9px;
   font-weight: 400;
-  line-height: 25.03px;
+  line-height: 15px;
+  font-family: "Light";
 }
 
-.legacy{
-  color: #ffffff;
-  font-family: "Open Sans - Extrabold";
-  font-size: 7px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-.button{
+.button {
   width: 94px;
   height: 29px;
   border-radius: 3px;
   background-color: #82ca9c;
+  vertical-align: middle;
+  padding-top: 9px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  color: white;
+  letter-spacing: 1.3px;
+  font-size: 8px;
+  font-family: "Light";
+}
+
+.now{
+  width: 103px;
+  height: 29px;
+  border-radius: 3px;
+  background-color: #82ca9c;
+  vertical-align: middle;
+  padding-top: 9px;
+  padding-left: 22px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 8px;
+  letter-spacing: 1.3px;
+}
+
+.col-md-offset-1 {
+  color: #ffffff;
+  font-size: 8px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  margin-left: 19%;
+  margin-top: 100px;
+  vertical-align: middle;
+}
+
+.purple{
+  width: 74px;
+  height: 21px;
+  border-radius: 5px;
+  background-color: #bd8cbf;
+  color: #ffffff;
+  font-size: 7px;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  padding-bottom: 20px;
+  padding-top: 0px;
+  padding-left: 10px;
+  font-family: "Regular";
+}
+
+.plusbas{
+  margin-left: 33px;
+  margin-top: 29px;
+}
+
+.apple{
+  width: 12px;
+  height: 15px;
+  margin-right: 7px;
+}
+
+.windows{
+  width: 15px;
+  height: 15px;
+}
+
+#soloteam{
+  color: #b8b8b8;
+  font-weight: 400;
+  transform: rotate(-90deg);
+  font-size: 7px;
+  margin-top: 110px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  font-family: "Semibold";
+}
+
+.ligneBloc{
+  display: flex;
+  justify-content: space-between;
+  color: #f6f7fa;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 15px;
+  width: 313px;
+}
+
+.taille{
+color: #f6f7fa;
+font-size: 9px;
+font-weight: 248;
+line-height: 15px;
+font-family: "Light";
+}
+
+.corecfin{
+  font-family: "Semibold";
+}
+
+.rectangleLong{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -500px;
+  margin-top: 90px;
+}
+
+.fin{
+color: #f6f7fa;
+font-size: 9px;
+font-weight: 248;
+line-height: 15px;
+font-family: "Semibold";
+}
+
+.seulBut{
+  width: 43px;
+  height: 36px;
+  margin-left: 190px;
+  margin-top: 10px;
+}
+
+.center{
+  position: absolute;
+}
+
+#yobuttons{
+  background-color: #82ca9c;
+  color: white;
+  border-radius: 0px;
+  outline: none;
+  margin-left: 100%;
+  margin-top: -36px;
+  width: 43px;
+  height: 36px;
+}
+
+.widtaille{
+  width: 291px;
+  height: 36px;
+  outline: none;
+}
+
+.minirectangle1{
+  position: absolute;
+}
+
+.minirectangle2{
+  margin-left: 400px;
+  margin-left: 780px;
+}
+
+.finTXT{
+color: #57697f;
+font-family: "Open Sans";
+font-size: 7px;
+font-weight: 400;
+line-height: 16px;
+}
+
+input{
+  margin-left: -4px;
+}
+
+.ressource{
+  font-family: "Semibold";
+}
+
+.lafindumonde{
+
 }
