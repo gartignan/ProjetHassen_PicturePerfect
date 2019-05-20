@@ -34,7 +34,6 @@ body{
 
 
 
-
 #banniere {
   height: 597px;
   background-image: url("../img/menu.png");
@@ -83,7 +82,7 @@ body{
   background-image: url("../img/tacheJaune.png");
   opacity: 0.5;
   background-size: 615px 597px;
-  left: 58%;
+  left: 53%;
 }
 
 .tacheBleu {
@@ -480,13 +479,13 @@ font-family: "Light";
   border-radius: 3px;
   background-color: #82ca9c;
   vertical-align: middle;
-  padding-top: 9px;
-  padding-left: 20px;
   margin-bottom: 10px;
   color: white;
   letter-spacing: 1.3px;
   font-size: 8px;
   font-family: "Light";
+  outline: none;
+  border: none;
 }
 
 .now{
@@ -495,13 +494,40 @@ font-family: "Light";
   border-radius: 3px;
   background-color: #82ca9c;
   vertical-align: middle;
-  padding-top: 9px;
-  padding-left: 22px;
   margin-bottom: 10px;
   color: #ffffff;
   font-size: 8px;
   letter-spacing: 1.3px;
+  outline: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
 }
+
+.button:hover{
+  transition: 0.2s;
+  background-color: white;
+  color: #82ca9c;
+}
+
+.now:hover{
+  transition: 0.2s;
+  background-color: white;
+  color: #82ca9c;
+}
+
+.now:active{
+  transition: 0.2s;
+  background-color: #82ca9c;
+  color: white;
+}
+
+.button:active{
+  transition: 0.2s;
+  background-color: #82ca9c;
+  color: white;
+}
+
 
 .col-md-offset-1 {
   color: #ffffff;
@@ -649,5 +675,9 @@ input{
 }
 
 .lafindumonde{
+  font-family: "Light";
+}
 
+.finTXT{
+  font-family: "Light";
 }
