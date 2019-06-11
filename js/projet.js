@@ -18,7 +18,8 @@ function changementEtat(data) {
       var depat = document.getElementById('depat');
       depat.innerHTML = donnees.soustitre;
 
-      var startsome = document.getElementById('startsome');
+      var startsome = document.g
+      etElementById('startsome');
       startsome.innerHTML = donnees.start.titre;
 
       var designyooo = document.getElementById('designyooo');

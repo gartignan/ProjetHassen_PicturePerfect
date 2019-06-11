@@ -681,3 +681,12 @@ input{
 .finTXT{
   font-family: "Light";
 }
+
+@media screen and (max-width: 1024px)
+{
+
+  #overlay2{
+  left:  100%;
+  }
+
+}
